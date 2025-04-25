@@ -1,0 +1,4 @@
+.idea
+.ipynb_checkpoints
+jupyter_env
+main.py

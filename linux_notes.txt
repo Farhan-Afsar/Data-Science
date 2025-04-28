@@ -1,0 +1,79 @@
+What/Why/How        -> When learning anything new
+
+Linux 
+    Open Source
+    Multi-user Capability
+    Portability
+    Security and Stability
+    Unix Based system
+
+in linux everything is files or directory
+
+Hardware <-> Kernel <-> Software 
+
+Kernel -> manages system resource and Hardware
+
+Distribution -> Complete operation system built around linux Kernel
+
+Package Manager -> apt,yum,dnf,pacman
+
+Distribution = full packaged Linux OS.
+
+Flavour = a variation or customized version of a distribution.
+
+Hardware -> kernel -> shell(cli) -> Application layer
+
+EC2 -> Elastic compute cloud
+
+AWS Console        CLI
+
+ls
+ls -l
+ls -a
+pwd
+cd
+touch
+mv index.html home.html
+
+date
+echo "Hello"
+whoami
+mkdir
+cd ..
+echo "Hello World" >> index.html      overwrite the file
+head -n2 index.html
+tail index.html
+cd /
+man ls
+/ -> Root directory
+bin -> binary
+sbin -> system binary
+df -h
+df --total
+
+power -> BIOS -> MBR -> BL -> Kernel  -> system initiate -> system run level
+
+ping google.compute
+mkdir folder1 folder2
+mkdir folder{3..10}
+mkdir -p folder{3..10} skis if any folder exist
+touch file{1..5}.txt
+rm -r folder
+rm -r folder*
+
+sudo -> super user do
+sudo useradd -m ramesh
+cd /home
+sudo passwd ramesh
+su ramesh
+exit
+sudo userdel -r ramesh
+ 
+cat /etc/passwd
+Read Write executable
+user grp all
+
+sudo groupadd devops
+cat /etc/group
+sudo usermod -aG tester Suresh
+

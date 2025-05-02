@@ -77,3 +77,17 @@ sudo groupadd devops
 cat /etc/group
 sudo usermod -aG tester Suresh
 
+sudo apt install docker.io
+sudo apt install docker.io -y
+sudo apt purge docker.io
+
+sudo dpkg -i .....
+sudo dnf install ....
+
+ls -l
+scp
+systemctl list-units
+systemctl status docker 
+systemctl stop docker
+systemctl restart docker
+sudo reboot
